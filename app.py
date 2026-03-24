@@ -16,7 +16,7 @@ def get_base64_video(video_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-video_path = r"D:\AutomationScripting\youtube_downloader\bg.mp4"
+video_path = r"bg.mp4"
 video_base64 = get_base64_video(video_path)
 
 st.markdown(f"""
